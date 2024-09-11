@@ -1,0 +1,44 @@
+{
+    "id": 1171638,
+    "apiName": "process_8DUPU",
+    "templateApiName": "machine_collect_docking_value",
+    "name": "自动报工工序",
+    "triggerType": "FORM",
+    "status": "OFF",
+    "processType": "FORM_FLOW",
+    "description": "",
+    "nodeMap": {
+        "nodeId": 8553382,
+        "nodeName": "表单触发",
+        "nodeType": "START_NODE",
+        "nextNode": {
+            "prevId": 8553382,
+            "nodeId": 8553383,
+            "nodeName": "连接器",
+            "nodeType": "CONNECTOR",
+            "nextNode": {
+                "prevId": 8553383,
+                "nodeId": 9008057,
+                "nodeName": "获取单条数据",
+                "nodeType": "FETCH_SINGLE",
+                "nextNode": {
+                    "prevId": 9008057,
+                    "nodeId": 9008058,
+                    "nodeName": "连接器",
+                    "nodeType": "CONNECTOR",
+                    "errorMsg": "节点配置不能为空",
+                    "id": 9008058
+                },
+                "errorMsg": "节点配置不能为空",
+                "id": 9008057
+            },
+            "errorMsg": "节点配置不能为空",
+            "id": 8553383
+        },
+        "errorMsg": "节点配置不能为空",
+        "id": 8553382,
+        "prevId": 123123
+    },
+    "createdTime": 1698111355000,
+    "updatedTime": 1698111355000
+}

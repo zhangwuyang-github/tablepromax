@@ -1,0 +1,16 @@
+
+.container {
+    width: 160px;
+    height: 60px;
+    border-radius: 28px;
+    cursor: pointer;
+    background: #003780;
+    border: 2px solid rgba(255,255,255,0.5);
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}

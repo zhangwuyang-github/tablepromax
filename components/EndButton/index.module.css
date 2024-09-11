@@ -1,0 +1,14 @@
+.container {
+    width: 80px;
+    height: 40px;
+    border-radius: 28px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border: 2px solid rgba(255,255,255,0.5);
+    background: #003780;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
